@@ -86,5 +86,6 @@ test.describe('few tests', ()=> {
 
         await expect(page.locator('.css-1rhbuit-multiValue')).toHaveText(['Green', 'Blue']);
     })
+    
 
 })
